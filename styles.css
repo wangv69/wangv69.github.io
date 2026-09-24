@@ -6,9 +6,92 @@ body{
 
 .hero{
     text-align: center;
-    font-size: 20px;
+    padding: 80px 20px 140px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-top: 0;
 }
 
 .nav{
     text-align: right;
+}
+
+.subsection{
+    text-align:center;
+    padding: 60px 20px;
+}
+
+.subsection h1{
+    margin-top: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    padding: 20px 8%;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 300px;
+    padding: 25px;
+
+    border: 2px solid white;
+    border-radius: 12px;
+
+    text-align: left;
+}
+
+.project-card h2 {
+    margin-top: 0;
+}
+
+.project-card a {
+    color: white;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
 }
